@@ -3,7 +3,7 @@
 ## [Unreleased]
 ### Added
 
-- Added the `reasoningLanguage` setting (`auto`, `off`, `zh`, `en`) to steer the language of visible thinking text on providers that stream raw reasoning. `auto` follows a clearly Chinese user turn. The transient `<reasoning-language>` block rides the user turn at request time — never the system prompt or session history — so earlier turns replay byte-identically and prompt caching is preserved.
+- Added the `reasoningLanguage` setting (`auto`, `off`, `zh`, `en`) to steer the language of visible thinking text on providers that stream raw reasoning. `auto` follows a clearly Chinese user turn. The transient `<reasoning-language>` block rides the user turn at request time — never the system prompt or session history — so earlier turns replay byte-identically and prompt caching is preserved. ([#12406](https://github.com/can1357/oh-my-pi/pull/12406) by [@c4ys](https://github.com/c4ys))
 
 ### Fixed
 
